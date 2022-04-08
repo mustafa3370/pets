@@ -144,6 +144,7 @@ text-decoration: none;
     box-shadow: var(--box-shadow);
     padding: 2rem;
     display: none;
+    text-decoration: none;
     
     
 }
@@ -155,6 +156,7 @@ h3{
     color: black;
     font-size: 2.5rem;
 padding-bottom: .5rem;
+text-decoration: none;
 }
 .box{
     width: 100%;
@@ -165,13 +167,14 @@ padding-bottom: .5rem;
      color: black;
      text-transform: none;
      margin: 1rem 0;
+     text-decoration: none;
 }
 .remember{
     display: flex;
     align-items: center;
     gap: .5rem;
     padding: 1rem 0 ;
-    text-decoration: none;
+    
 }
 label{
     font-size: 1.5rem;
@@ -197,7 +200,9 @@ label{
 }
 a{
     font-size: 1.4rem;
-    color:var(--carrot-color);
+    color:black;
+    text-decoration: none;
+
 }
 a:hover{
      color: black;
@@ -306,6 +311,13 @@ section{
     left: 0;
     width: 100%;
     height: 10rem;
+}
+.btn{
+    color:rgb(11, 11, 11);
+    border-color: rgb(17, 17, 17);
+    width: 120px;
+    left: 20px;
+    top:30px;
 }
 
 @media (max-width:768px){
