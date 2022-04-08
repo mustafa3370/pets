@@ -206,7 +206,7 @@ a{
 }
 a:hover{
      color: black;
-     text-decoration: underline;
+     text-decoration: none;
 }
 #menu-btn{
     display: none;
@@ -315,9 +315,15 @@ section{
 .btn{
     color:rgb(11, 11, 11);
     border-color: rgb(17, 17, 17);
-    width: 120px;
+    width: 220px;
     left: 20px;
     top:30px;
+}
+.content{
+    width: 70rem;
+    position: absolute;
+    top: 200px;
+    right: 200px;
 }
 
 @media (max-width:768px){
@@ -375,5 +381,6 @@ section{
         top:30px;
     }
 }
+
 }
 }
