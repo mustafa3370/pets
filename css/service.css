@@ -225,14 +225,8 @@ h3 {
         color: rgb(18, 18, 18);
         cursor: pointer;
     }
-    .doc {
-        
-            position: absolute;
-            top: 75px;
-            width: 389px;
-            left: 891px;
-        
-}
+    
+   
 h3 {
     font-size: 22px;
     position: absolute;
@@ -242,7 +236,7 @@ h3 {
     color: rgb(17, 17, 17);
 }
 }
-@media (width:414px){
+@media (max-width:414px){
     .navbar a {
         margin: 0 1rem;
         font-size: 10px;
@@ -273,18 +267,17 @@ h3 {
         cursor: pointer;
     }
     .doc {
-        
-            position: absolute;
-            top: 75px;
-            width: 389px;
-            left: 891px;
-        
-}
+        position: absolute;
+        top: 222px;
+        width: 402px;
+        left: 861px;
+    
+    }
 h3 {
     font-size: 22px;
     position: absolute;
     top: -18px;
-    right: -10px;
+    right: 13px;
     padding-bottom: 1rem;
     color: rgb(17, 17, 17);
 }
