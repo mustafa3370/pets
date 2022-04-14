@@ -374,20 +374,6 @@ section{
     position: absolute;
 }
 
-.welcoming{
-    position: absolute;
-    bottom: 0;
-    left: 10px;
-    top: 350px;
-    width: 100%;
-   
-}
-.wavee{
-    position: absolute;
-    bottom: 0px;
-    width: 170%;
-    height: 10rem;
-}
 
 @media (max-width:768px){
     #menu-btn{
@@ -429,20 +415,7 @@ section{
     position: absolute;
 }
 
-.welcoming{
-    position: absolute;
-    bottom: 0;
-    left: 10px;
-    top: 550px;
-    width: 100%;
-   
-}
-.wavee{
-    position: absolute;
-    bottom: 0px;
-    width: 170%;
-    height: 10rem;
-}
+
 
 @media (max-width:450px){
     html{
@@ -472,20 +445,7 @@ section{
     position: absolute;
 }
 
-.welcoming{
-    position: absolute;
-    bottom: 0;
-    left: 10px;
-    top: 350px;
-    width: 100%;
-   
-}
-.wavee{
-    position: absolute;
-    bottom: 0px;
-    width: 170%;
-    height: 10rem;
-}
+
 
 }
 }
