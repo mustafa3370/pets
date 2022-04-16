@@ -311,6 +311,37 @@ color:white;
 .doctor span{
     color: black;
 }
+.contact{
+    padding: 2rem 0;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 3rem;
+}
+.contact .image{
+    flex: 1 1 40rem;
+}
+.contact .image img{
+width: 100%;
+}
+form{
+    flex: 1 1 40rem;
+    padding: 2rem 7%;
+}
+.contact h4{
+    font-size: 3rem;
+    padding-bottom: 1rem;
+    color:black;
+}
+.box{
+    width: 100%;
+    border-width:.1rem ;
+    font-size: 1.6rem;
+    text-transform: none;
+    color: black;
+    padding: 1.5rem 0;
+    margin: 1rem 0;
+}
 
 
 
